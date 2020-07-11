@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+	<!-- Use GET, not post -->
+	<!-- How to divide the page
+	<div></div>
+	<span></span>
+	 -->
+
+	<form method="GET">
+		First Name: <input type="text"	name="firstname"><br>
+		Last Name: <input type="text" name="lastname"><br>
+		Email: <input type="Email" name="email" required><br>
+		Password: <input type="Password" min="5" name="password"><br>
+		Birthday: <input type="date" name="birthday"><br>
+		Gender <br>
+		<input type="radio" name="gender" value="Male">Male<br>
+		<input type="radio" name="gender" value="Female">Female<br>
+		<input type="radio" name="gender" value="Other">Other<br>
+		Pets: <br>
+		<input type="checkbox" name="cat"> Cats<br>
+		<input type="checkbox" name="dog"> Dogs<br>
+		Cars: <br>
+		<select name="cars">
+			<option value="Volvo" name="Volvo">Volvo</option>
+			<option value="Audio" name="Audi">Audi</option>
+		</select><br>
+		
+		<input type="submit" value="Register!">
+		<input type="reset" name="">
+		<a href="Index.html">Home</a>
+		<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+		<input list="browsers">
+		  <datalist id="browsers">
+		    <option value="Internet Explorer">
+		    <option value="Firefox">
+		    <option value="Chrome">
+		    <option value="Opera">
+		    <option value="Safari">
+		  </datalist> 
+
+<script>
+var x = document.getElementById("demo");
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude; 
+}
+</script>
+
+	</form>
+</body>
+</html>
+
+<!-- firstname=Ramon&
+lastname=Zamorano&
+email=razamorano%40gmail.com&
+password=Ramon321&
+birthday=20%2F06%2F1988&
+gender=Male&cat=on&
+cars=Volvo -->

@@ -1,0 +1,26 @@
+h2{
+	color: blue;
+}
+
+.boxmodel{
+	border: 5px solid;
+	border-color: red;
+	display: inline-block;
+	/*top right botton lef;*/
+	padding: 5px 20px;
+	margin: 0px 20px;	
+	width: 33px;
+	height: 55px;
+}
+
+
+p{
+	font-style: 20px;
+}
+/*
+rem: related with the root element in times
+em: related to the contex element in times
+*/
+span{
+	font-size: 2rem;
+}

@@ -1,0 +1,29 @@
+CSS Cheat Sheet
+
+Reference:
+*https://www.w3schools.com/cssref/css_selectors.asp
+*https://css-tricks.com/almanac/
+
+Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter. 
+
+
+.class: part that you can apply to just one line
+#id: specify a children of the class
+* : apply to all elements, needs to be place at the top
+element : it just apply to the element mentioned
+element, element : apply to both elements
+element1 element2 : applies to the elements2 contained on element1 only
+element1 > element1: apply to element2 as long as the element is a children of element1
+element1 + element2: it apply to any element2 which is inside to the element1
+
+All this properties needs to be used at the end of the elements ie. h2: hover
+:hover (flotar) : ideally for button, it change the style when you put the cursor onto
+:last-child : it makes reference to the style to just the last child
+:first-child : it makes reference to just the first child
+!important (not recommended) : is using after the style and apply even if after you create a new style on the cascade ie p{ color: pink !importante; }
+
+
+What seletors win out in the cascade depends on:
+-Specificity // speciality.keegan.st (speciality calculator
+-Importance // referees on !important
+-Source Order // the source order also affect on the html reference

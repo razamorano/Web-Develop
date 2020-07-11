@@ -1,0 +1,28 @@
+/* Selector {
+    Property: value;
+} */
+
+body {
+    background-image: url(https://i.pinimg.com/originals/21/6e/f8/216ef8d3f6a176e6d0d60bd6588af99f.jpg);
+    background-size: cover;
+}
+
+h2 {
+    color: #EE6407;
+    text-align: center;
+    border: 5px solid rgb(255, 182, 133, 0.5);
+    cursor: pointer;
+}
+
+p {
+    color: purple;
+}
+
+a {
+    color: green;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}

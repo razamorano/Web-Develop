@@ -1,0 +1,49 @@
+/*Selector {
+	Property: value;
+}*/
+
+/*Cascade coding on CSS last written last happens
+*//*
+HEX Color #+++++
+RGB color rgb(xxx,xxx,xxx)
+RGB with Opacity rgba (xxx,xxx,xxx,0-1 <1)*/
+
+* {
+	text-align: right;
+}
+
+body{
+	background-image: url(william-fonteneau-MMnkA8Pmn70-unsplash.jpg);
+	background-size: cover; 
+}
+/*
+h2 p, it mean p only that are inside h2*/
+h2 > p {
+	color: #AA4139;
+	text-align: center;
+	border: 5px solid purple;
+	cursor: pointer;
+}
+
+p{
+	color: blue;
+}
+
+li {	
+	list-style: none;
+	display: inline-block;
+
+}
+
+.webtag {
+	border: 5px dashed green;
+}
+
+#div1 {
+	background: rgba(0,0,255,0.2);
+}
+
+#div2{
+	background: rgba(255,0,0,0.2);
+}
+
